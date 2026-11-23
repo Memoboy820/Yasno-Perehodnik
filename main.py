@@ -17,3 +17,6 @@ app.add_middleware(
 
 app.include_router(main_router)
 
+@app.get("/ping")
+async def ping():
+    return {"status": "ok", "test": "moscow"}
