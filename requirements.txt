@@ -3,3 +3,5 @@ google-genai
 openai
 pypdf
 markitdown[all]
+httpx
+python-multipart
